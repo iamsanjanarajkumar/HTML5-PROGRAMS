@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-6</title>
+    <style>
+        dialog{
+            background-color: grey;
+            color: lightgrey;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>Details Tag...!!</h3>
+        <p>This tag is used to specify the additional details on the web page that user can view or hide on demand</p>
+    </center>
+    <hr>
+
+    <center>
+        <h3>This is SUMMARY TAG..!!</h3>
+        <p> The <b>HTML SUMMARY</b> tag is used with<b>DETAILS</b>tag.It is used as a summary ,caption or legend for the content of details element.</p>
+    </center>
+    <hr>
+    
+    <details>
+        <summary>HTML</summary>
+        <h1>HTML</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit id debitis dolor ipsam iusto autem sequi voluptatem voluptates unde perferendis soluta officiis ipsa fuga reiciendis nemo, eveniet commodi rerum reprehenderit?</p>
+    </details>
+
+    <details>
+        <summary>CSS</summary>
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit id debitis dolor ipsam iusto autem sequi voluptatem voluptates unde perferendis soluta officiis ipsa fuga reiciendis nemo, eveniet commodi rerum reprehenderit?</p>
+    </details>
+    
+
+     <details>
+        <summary>JS</summary>
+        <H1>JS</H1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit id debitis dolor ipsam iusto autem sequi voluptatem voluptates unde perferendis soluta officiis ipsa fuga reiciendis nemo, eveniet commodi rerum reprehenderit?</p>
+    </details>
+    
+    <center>
+        <h3>
+        Time Tag...!!
+        </h3>
+        <p><b>Html time </b>tag is  used to  define date and time.it displays time value in a 24hr clock or a precise date in a gregorian calendar in html.</p>
+    </center>
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nulla sit doloribus eius, hic quas omnis perspiciatis dicta 2:30PM nemo ad porro dolorem ipsam, unde ducimus recusandae in alias officiis? Veritatis!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et ad illum error, nesciunt sint cupiditate magnam earum tempora esse <time>2:30</time>architecto distinctio quae a voluptates, quia pariatur autem mollitia incidunt?</p>
+    
+    <center>
+        <h3>Dialog tag..!!</h3>
+        <p>Dialog tag is used to show content on popup on the web page</p>
+    </center>
+    <hr>
+
+    <dialog id="dd">
+        <h1>MERN STACK</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellat vitae distinctio sapiente nemo unde voluptatem iure maiores corrupti laboriosam, hic consectetur repudiandae ea expedita eligendi tempora dolores similique laudantium!</p>
+    </dialog>
+
+    <button id="btn1">Open Dialog</button>
+    <button id="btn2">Close</button>
+
+    <script>
+        document.getElementById("btn1").onclick = function(){
+            document.getElementById("dd").show();
+        };
+    </script>
+    <script>
+            document.getElementById("btn2").onclick  = function(){
+            document.getElementById("dd").close();
+            }
+        </script>
+   
+</body>
+</html>
